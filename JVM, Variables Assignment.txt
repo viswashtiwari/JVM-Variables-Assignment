@@ -1,0 +1,38 @@
+1. What is the difference between JVM, JRE and JDK?
+Answer: The difference between JVM,JRE and JDK are:-
+JVM : Java Virtual Machine is Platform Dependent because every system have its own JVM. JVM converts bytecodes into machine code . JVM understand and run the bytecodes. When we compile the code then .class file is created , this .class file is platform independent then JVM execute the .class file. 
+
+JRE: Java Runtime Environment is technology that that communicates between the Java program and the operating system.It provides all the resources so that when you write a program in java ,it runs in any operating system without any problem.
+
+JDK: The Java Development Kit (JDK) is a software development environment used to develop Java applications.  It includes the Java Runtime Environment (JRE), an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (javadoc) and other tools needed in Java development.
+2. How is Java programming language machine and platform independent?
+Answer: When we write code in java and compile, it generates bytecodes . The bytecodes are platform-independent and machine-independent. Then JVM converts bytecode into machine code . The JVM is different for every machine , If we write our code in windows when we compile the code it converts in .class file it contains bytecodes . With the help of JVM we call run the code in mac or linux also.
+
+3. Explain how Java programs are executed by the JVM?
+Answer: When we execute the program in java, the bytecode is loaded into memory by the Java Virtual Machine (JVM). This process is called class loading. Then Bytecode Verification will happen , the JVM verifies the bytecode to ensure that it is well-formed and adheres to the Java language specification.
+
+4. What is the use of var args ?
+Answer:Variable Arguments (Varargs) in Java is a method that takes a variable number of arguments. Variable Arguments in Java simplifies the creation of methods that need to take a variable number of arguments. Var args are used when we are not sure about the number of argunment a method may need. 
+
+5. What are the types of variables in Java?
+Answer: There are three types of variables in java:
+ a. local
+ b. instance 
+ c. static
+
+a. local variables : A variable declared inside the body of the method is called local variable.We can use the variable with in the method. Other method of the class is not aware for the variable . A local variable cannot be defined with "static" keyword.
+
+b. instance variable: Instance Variable is declared inside the class and outside the method . we can also use "static" keyword.
+
+c. static variable: When a variable is declared static in Java programming, it means that the variable belongs to the class itself rather than to any specific instance of the class.  
+
+6. How many types of memory areas are allocated by JVM?
+Answer: There are many types :
+a. Heap
+b. Stack
+c. Program Counter Register
+d. Native Method Stack
+
+
+7. What is Just-in-time Compiler (JIT)?
+Answer: The Just-In-Time (JIT) compiler is a component of the runtime environment that improves the performance of Java applications by compiling bytecodes to native machine code at run time. It compiles similar type of bytecodes at the same time. It reduce the time. 
